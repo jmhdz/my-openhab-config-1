@@ -1,0 +1,15 @@
+//----------------------------------------------------------
+// This rule allows more simpler decisions.
+// You can check on one switch rather than calculating
+// if it is night over and over again.
+//
+rule "Set night mode"
+when
+    Item Elevation changed
+then
+    if( Elevation.state < 0 ){
+      mode_night.postUpdate(ON)
+    } else {
+      mode_night.postUpdate(OFF)
+    }
+end

@@ -1,0 +1,9 @@
+0=HOME
+1=NIGHT
+2=AWAY
+NULL=unknown
+CLOSED=Aktivitaet erkannt
+OPEN=keine Aktivitaet
+ON=Aktivitaet erkannt
+OFF=keine Aktivitaet
+-=unknown
