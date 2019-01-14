@@ -1,0 +1,10 @@
+/* XBMC */
+String EG_Wohnzimmer_XBMC_State  "XBMC WZ Status: [%s]" <video>  (EG_Wohnzimmer)    { xbmc="<[#wohnzimmer|Player.State]" }
+String EG_Wohnzimmer_XBMC_Title  "XBMC WZ Title: [%s]"  (EG_Wohnzimmer)    { xbmc="<[#wohnzimmer|Player.Title]" }
+Dimmer EG_Wohnzimmer_XBMC_Volume "XBMC WZ Volume [%.1f]"   (EG_wohnzimmer)         { xbmc="=[#wohnzimmer|Application.Volume]" }
+Switch EG_Wohnzimmer_XBMC_Screensaver "XBMC WZ Screensaver"   (UG_Hannes)             { xbmc="<[#wohnzimmer|Screensaver.State]" }
+
+String UG_Hannes_XBMC_State  "XBMC Hannes Status: [%s]" <video>  (UG_Hannes)    { xbmc="<[#hannes|Player.State]" }
+String UG_Hannes_XBMC_Title  "XBMC Hannes Title: [%s]"  (UG_Hannes)    { xbmc="<[#hannes|Player.Title]" }
+Dimmer UG_Hannes_XBMC_Volume    "XBMC Hannes Volume [%.1f]"   (UG_Hannes)             { xbmc="=[#hannes|Application.Volume]" }
+Switch UG_Hannes_XBMC_Screensaver "XBMC Hannes Screensaver"   (UG_Hannes)             { xbmc="<[#hannes|Screensaver.State]" }
